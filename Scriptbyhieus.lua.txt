@@ -56,7 +56,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs
     AddButton(Tab1o, {
      Name = "trẩu v9",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trungdao2k4/buffalo/refs/heads/main/traurobloxv9.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trungdao2k4/trauroblox/refs/heads/main/trauv9lord.lua"))()
   end
   })
   
