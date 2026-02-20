@@ -35,7 +35,17 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab3o = MakeTab({Name = "auto bouty"})
      
 ------- BUTTON
-    
+    AddButton(Tab1o, {
+     Name = "Gy_HieRus Script",
+    Callback = function()
+	  getgenv().ScriptTitle = "Gy_HieRus"
+getgenv().ScriptSubTitle = "Free key"
+getgenv().ScriptImage = "https://i.ibb.co/7dYMxJW3/605.jpg"
+getgenv().ScriptAuthorName = "Gy_Dead"
+getgenv().ScriptAuthorSubTitle = "Hieu"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()  end
+  })
+
     AddButton(Tab1o, {
      Name = "nana lỏ",
     Callback = function()
