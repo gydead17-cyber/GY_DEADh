@@ -35,7 +35,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab3o = MakeTab({Name = "auto bouty"})
      
 ------- BUTTON
-    AddButton(Tab1o, {
+        AddButton(Tab1o, {
      Name = "Gy_HieRus",
     Callback = function()
 	  getgenv().ScriptTitle = "Gy_HieRus"
@@ -43,20 +43,27 @@ getgenv().ScriptSubTitle = "Free key"
 getgenv().ScriptImage = "https://i.ibb.co/7dYMxJW3/605.jpg"
 getgenv().ScriptAuthorName = "Gy_Dead"
 getgenv().ScriptAuthorSubTitle = "Hieu"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()  end
-  })
-
-    AddButton(Tab1o, {
-     Name = "nana lỏ",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NaNacuti/nanabeo/refs/heads/main/NaNaTVHub.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"))()
   end
   })
-  
+
   AddButton(Tab1o, {
      Name = "QuantumOnyx",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "trẩu v9",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trungdao2k4/buffalo/refs/heads/main/traurobloxv9.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Nana cuti",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NaNacuti/nanabeo/refs/heads/main/NaNaTVHub.lua"))()
   end
   })
   
@@ -105,5 +112,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hhl29042008-ops/scrip
   end
   })
    
-  
-  
+    AddButton(Tab1o, {
+     Name = "Tiro hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NTTLOL/Tiro-Hub/refs/heads/main/TiroDel.lua.txt"))()
+  end
+  })
