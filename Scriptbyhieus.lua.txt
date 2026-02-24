@@ -113,8 +113,22 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hhl29042008-ops/scrip
   })
    
     AddButton(Tab1o, {
-     Name = "Tiro hub",
+     Name = "Maru free",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NTTLOL/Tiro-Hub/refs/heads/main/TiroDel.lua.txt"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/MaruHubV1/refs/heads/main/MainV1.Lua "))()
+  end
+  })
+
+AddButton(Tab1o, {
+     Name = "banana hdanh",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhvip/hdanhhub/refs/heads/main/BananaHub.lua.txt"))()
+  end
+  })
+
+AddButton(Tab1o, {
+     Name = "banana fan",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/aloaloalo322/sssdas/refs/heads/main/cc"))()
   end
   })
